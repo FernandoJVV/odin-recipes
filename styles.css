@@ -1,0 +1,47 @@
+/* Styles.css*/
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: rgb(223, 255, 227);
+}
+
+#Main{
+    border: 20px solid rgb(0, 73, 0);
+}
+
+img {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.page-title{
+    text-align: center;
+    font-weight: bold;
+}
+
+.page-title.main{
+    color: blue;
+}
+
+.page-title.chifrijo{
+    color: red;
+}
+
+.page-title.leche{
+   background: white;
+}
+
+#list-title{
+    background-color: darkgreen;
+    color: white;
+}
+
+li {
+    font-size: 18px;
+}
